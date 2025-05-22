@@ -1,0 +1,67 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 5rem;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    color: blue;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+p {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+#message1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#message2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#message3 {
+    font-family: 'Arial', sans-serif;
+}
+
+#message4 {
+    font-family: 'Georgia', serif;
+}
+
+#message5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
